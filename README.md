@@ -1,33 +1,22 @@
-# Library Management Database (Week 8 Final Project)
+# 📚 Library Management Database
 
-## Project Overview
-This project implements a **relational database management system** for a library.  
-It manages:
-- **Authors** (who wrote books)
-- **Books** (with details like title, genre, and published year)
-- **Members** (library users with membership details)
-- **Borrowings** (records of which member borrowed which book)
+## 📌 Project Overview
+This project is a simple relational database system designed for a **Library Management System**.  
+It manages information about **authors, books, members, and borrowings**.  
 
-The project demonstrates:
-- Primary keys
-- Foreign keys
-- One-to-Many and Many-to-Many relationships
+The schema demonstrates:
+- Primary Keys (`PRIMARY KEY`)
+- Foreign Keys (`FOREIGN KEY`)
+- Unique constraints (`UNIQUE`)
+- One-to-Many and Many-to-Many relationships  
 
 ---
 
- Technologies Used
-- **MySQL**
+## 🛠️ How to Run
+1. Open **MySQL Workbench** (or your preferred MySQL client).  
+2. Copy the contents of `library_management.sql`.  
+3. Run the script to create the database and all tables.  
+4. Use the database with:
+   ```sql
+   USE LibraryDB;
 
----
- Database Schema
-- **Authors** → Stores author details  
-- **Books** → Linked to authors (One-to-Many)  
-- **Members** → Stores library member details  
-- **Borrowings** → Links members and books (Many-to-Many)  
-
----
-
-##  How to Run
-1. Open MySQL Workbench (or your preferred MySQL client).
-2. Create a new query and paste the contents of `library_management.sql`.
-3. Run the script to create the databas
